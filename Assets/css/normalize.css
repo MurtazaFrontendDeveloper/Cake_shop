@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+:root{
+    --black:#0A0A0A;
+    --gold:#E5BF4A;
+    --white:#ffffff;
+    --font-didot: "Poiret One", sans-serif;
+    --font-p-span:"Jost", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--font-didot);
+    font-weight: 400;
+    font-style: normal;
+}
+p,span,a{
+    font-family: var(--font-p-span);
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
